@@ -11,7 +11,7 @@ public class ThreeSumTest {
     public void when_input_then_should_return_size_2_list() {
         int[] input = new int[]{-1, 0, 1, 2, -1, -4};
         ThreeSum threeSum = new ThreeSum();
-        List<List<Integer>> lists = threeSum.sumThree(input);
+        List<List<Integer>> lists = threeSum.threeSum(input);
         List<Integer> list1 = new ArrayList();
         List<Integer> list2 = new ArrayList();
         list1.add(-1);
